@@ -1,0 +1,117 @@
+/* styling the code editor */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e6e9;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+nav {
+    background-color: rgb(21, 22, 22);
+    color: rgb(245, 239, 239);
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    box-shadow: 1px 4px 5px 0px #f9f8f8;
+    margin-bottom: 25px;
+
+}
+
+.editor {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.editor #html-code {
+    width: 39%;
+    height: 30%;
+    position: absolute;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #8fa2ed;
+
+}
+
+.editor #css-code {
+    position: absolute;
+    width: 39%;
+    height: 30%;
+    top: 35%;
+    font-size: 18px;
+    background-color :#8fa2ed;
+    padding: 10px;
+}
+
+.editor #js-code {
+    position: absolute;
+    bottom: 0;
+    width: 39%;
+    height: 30%;
+    font-size: 18px;
+    padding: 10px;
+    background-color :#8fa2ed;
+}
+
+.editor #output {
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 100vh;
+    background-color: #72a1a1;
+    font-size: 18px;
+    color: aquamarine;
+    text-align: left;
+}
+
+.editor .heading {
+    position: absolute;
+    color: white;
+}
+
+.html {
+
+    top: -46.2px;
+    left: 10%;
+    margin: 20px;
+}
+
+.css {
+    bottom: 65%;
+    left: 12%;
+}
+
+.js {
+
+    bottom: 30%;
+    left: 10%;
+}
+
+.output {
+    right: 25%;
+    top: -27px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: rgb(191, 232, 115);
+}
+
+::placeholder {
+    color: rgb(216, 73, 73);
+    opacity: 10; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: rgb(220, 46, 46);
+  }
